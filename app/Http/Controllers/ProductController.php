@@ -11,7 +11,7 @@ class ProductController extends Controller
     {
         $products = Product::all();
 
-        return view('Product/shop', [
+        return view('Product/products', [
             'products' => $products
         ]);
     }
@@ -20,7 +20,7 @@ class ProductController extends Controller
     {
         $product = Product::find($request->id);
 
-        return view('Product/single', [
+        return view('Product/product', [
             'product' => $product
         ]);
     }
