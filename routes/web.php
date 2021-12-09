@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/product/all', [ProductController::class, 'shop'])->name('all_products');
+
+Route::get('/product/{id}', [ProductController::class, 'product'])->name('product');
