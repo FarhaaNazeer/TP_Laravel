@@ -276,77 +276,12 @@
                 <nav>
                     <ul class="header-menu">
                         <li><a href="{!! route('home') !!}">Home<img src="img/down-arrow.png" alt="" class="active"></a>
-                            <!-- <ul>
-                                <li><a href="home_1.html">Home 1</a></li>
-                                <li><a href="home_2.html">Home 2</a></li>
-                                <li><a href="home_3.html">Home 3</a></li>
-                                <li><a href="home_4.html">Home 4</a></li>
-                                <li><a href="home_5.html">Home 5</a></li>
-                                <li><a href="home_6.html">Home 6</a></li>
-                                <li><a href="home_7.html">Home 7</a></li>
-                                <li><a href="home_8.html">Home 8</a></li>
-                                <li><a href="home_9.html">Home 9</a></li>
-                            </ul> -->
                         </li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="{!! route('shop') !!}">Shop<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                            <!-- <ul>
-                                <li><a href="shop-1.html">Shop 1</a></li>
-                                <li><a href="shop-2.html">Shop 2</a></li>
-                                <li><a href="shop-3.html">Shop 3</a></li>
-                                <li><a href="shop-detail-1.html">Shop Detail<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                                    <ul>
-                                        <li><a href="shop-detail-1.html">Shop Detail 1</a></li>
-                                        <li><a href="shop-detail-2.html">Shop Detail 2</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="checkout-1.html">Order<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                                    <ul>
-                                        <li><a href="checkout-1.html">Checkout 1</a></li>
-                                        <li><a href="checkout-2.html">Checkout 2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>-->
                         </li>
                         <li><a href="{!! route('reservation') !!}">Reservation<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                            <!--
-                            <ul>
-                                <li><a href="reservation.html">Reservation</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="team.html">Chefs</a></li>
-                                <li><a href="menu-1.html">Menu<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                                    <ul>
-                                        <li><a href="menu-1.html">Menu 1</a></li>
-                                        <li><a href="menu-2.html">Menu 2</a></li>
-                                        <li><a href="menu-3.html">Menu 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="gallery-1.html">Gallery<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                                    <ul>
-                                        <li><a href="gallery-1.html">Dessert</a></li>
-                                        <li><a href="gallery-2.html">Breakfast</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="coming-soon.html">Coming soon</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="blog-1.html">Blog<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                            <ul>
-                                <li><a href="blog-1.html">Blog 1</a></li>
-                                <li><a href="blog-2.html">Blog 2</a></li>
-                                <li><a href="blog-detail-1.html">Blog Detail<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                                    <ul>
-                                        <li><a href="blog-detail-1.html">Blog Detail 1</a></li>
-                                        <li><a href="blog-detail-2.html">Blog Detail 2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>-->
-                        <li><a href="contact-1.html">Contact<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                            <ul>
-                                <li><a href="contact-1.html">Contact 1</a></li>
-                                <li><a href="contact-2.html">Contact 2</a></li>
-                            </ul>
+                        <li><a href="{!! route('contact') !!}">Contact<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
                         </li>
                     </ul>
                 </nav>
