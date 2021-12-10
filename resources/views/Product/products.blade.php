@@ -301,7 +301,6 @@
                                             <div class="empty-sm-0 empty-xs-15"></div>
                                         </div>
                                         <div class="fr">
-                                            <!--    <a href="{!! route('addToCart', ['id' => $product->id ]) !!}" class="page-button button-style-1 type-2"><span class="txt">Add to cart</span></a> -->
                                             <div class="text">
                                                 <button type="submit" class="page-button button-style-1 type-2" style="cursor:pointer;">
                                                     <span class="txt">Add to cart</span>
