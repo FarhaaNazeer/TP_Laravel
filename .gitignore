@@ -4,6 +4,7 @@
 /public/front
 /public/img
 /storage/*.key
+/storage/debugbar
 /vendor
 .env
 .env.backup
