@@ -1,11 +1,14 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>IndusValley - @yield('title') </title>
     <link rel="shortcut icon" href="favicon.ico" />
     <style id="dynamic-css"></style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>

@@ -275,8 +275,8 @@
                 </div>
                 <nav>
                     <ul class="header-menu">
-                        <li><a href="home_1.html">Home<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                            <ul>
+                        <li><a href="{!! route('home') !!}">Home<img src="img/down-arrow.png" alt="" class="active"></a>
+                            <!-- <ul>
                                 <li><a href="home_1.html">Home 1</a></li>
                                 <li><a href="home_2.html">Home 2</a></li>
                                 <li><a href="home_3.html">Home 3</a></li>
@@ -286,11 +286,11 @@
                                 <li><a href="home_7.html">Home 7</a></li>
                                 <li><a href="home_8.html">Home 8</a></li>
                                 <li><a href="home_9.html">Home 9</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li><a href="about.html">About</a></li>
-                        <li class="active"><a href="shop-1.html">Shop<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
-                            <ul>
+                        <li><a href="{!! route('shop') !!}">Shop<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
+                            <!-- <ul>
                                 <li><a href="shop-1.html">Shop 1</a></li>
                                 <li><a href="shop-2.html">Shop 2</a></li>
                                 <li><a href="shop-3.html">Shop 3</a></li>
@@ -306,9 +306,10 @@
                                         <li><a href="checkout-2.html">Checkout 2</a></li>
                                     </ul>
                                 </li>
-                            </ul>
+                            </ul>-->
                         </li>
-                        <li><a href="reservation.html">Page<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
+                        <li><a href="reservation.html">Reservation<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
+                            <!--
                             <ul>
                                 <li><a href="reservation.html">Reservation</a></li>
                                 <li><a href="services.html">Services</a></li>

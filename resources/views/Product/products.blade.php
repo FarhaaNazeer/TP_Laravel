@@ -116,9 +116,11 @@
                         </div>
                         <div class="text">
                             <div class="empty-sm-20 empty-xs-20"></div>
-                            <h5 class="h5 caption">
-                                <a href="{!! route('product', ['id' => $product->id ]) !!}" class="link-hover-line">{{ $product->name }}</a>
-                            </h5>
+                            <a href="{!! route('product', ['id' => $product->id ]) !!}" class="link-hover-line">
+                                <h5 class="h5 caption">
+                                    {{ $product->name }}
+                                </h5>
+                            </a>
                             <div class="empty-sm-5 empty-xs-5"></div>
                             <div class="simple-text">
                                 <p><b>Ingredients: </b>Pepperoni, mushrooms, sausage, pizza sauce, and mozzarella cheese.</p>
@@ -137,11 +139,4 @@
     </section>
 
 </div>
-<ul>
-    @foreach($products as $product)
-    <a href="{!! route('product', ['id' => $product->id ]) !!}">
-        <li>{{ $product->name }}</li>
-    </a>
-    @endforeach
-</ul>
 @endsection
