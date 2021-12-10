@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return view('Home/home');
     }
+
+    public function reservation()
+    {
+        return view('Home/reservation');
+    }
 }

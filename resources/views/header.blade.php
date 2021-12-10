@@ -308,7 +308,7 @@
                                 </li>
                             </ul>-->
                         </li>
-                        <li><a href="reservation.html">Reservation<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
+                        <li><a href="{!! route('reservation') !!}">Reservation<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
                             <!--
                             <ul>
                                 <li><a href="reservation.html">Reservation</a></li>
@@ -341,7 +341,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li><a href="contact-1.html">Contact<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
                             <ul>
                                 <li><a href="contact-1.html">Contact 1</a></li>

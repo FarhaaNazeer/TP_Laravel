@@ -11,18 +11,29 @@
 
 </head>
 
-<body>
-    @include('header')
-    @section('sidebar')
-    This is the master sidebar
-
-    @show
 
 
-    @yield('content')
 
-    @include('footer')
-</body>
+@include('header')
+@yield('content')
+@include('footer')
+
+<script>
+    function MessageForm6() {
+        $.ajax({
+            type: 'POST',
+            url: 'messageForm6.php',
+            data: $('#messageForm6').serialize(),
+            success: function(response) {
+                $('.submit').html('send');
+                $('#messageForm6')[0].reset();
+            }
+        });
+        return false;
+    }
+</script>
+
+</html>
 @section('javascript')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
@@ -34,5 +45,3 @@
 <script src=" {{ asset('js/jquery.classycountdown.js') }} "></script>
 <script src=" {{ asset('js/jarallax.js') }} "></script>
 <script src=" {{ asset('js/color.picker.js') }} "></script>
-
-</html>
