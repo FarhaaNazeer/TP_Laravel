@@ -3,9 +3,8 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
-class CategoryFactory extends Factory
+class AtelierFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -15,9 +14,10 @@ class CategoryFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->name(),
-            'imagePath' => Str::random(10),
-            'is_enable' => true,
+            'nom' => $this->faker->jobTitle(),
+            'nb_pers' => $this->faker->randomDigit(5),
+            'date' => $this->faker->dateTime(),
+            'location' => $this->faker->city(),
             'created_at' => now(),
             'updated_at' => now()
         ];
