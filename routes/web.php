@@ -22,7 +22,9 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::get('/ingredient/create', [IngredientController::class, 'create'])->middleware(['auth'])->name('create_ingredient');
+Route::get('/ingredient/create', [IngredientController::class, 'createForm'])->middleware(['auth'])->name('create_ingredient');
+
+Route::post('/ingredient/create', [IngredientController::class, 'validForm'])->middleware(['auth'])->name('valid_ingredient');
 
 Route::get('/recette/create', function () {
     return view('dashboard');

@@ -8,12 +8,12 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    <form action="{!! route('create_ingredient') !!}" method="post">
+                    <form action="{!! route('valid_ingredient') !!}" method="post">
                         @csrf
                         <div class="row">
                             <div class="col-sm-12 col-xs-12">
                                 <label for="name">Nom</label>
-                                <input type="text" class="@error('name') is-invalid @enderror" placeholder="">
+                                <input type="text" class="@error('name') is-invalid @enderror" placeholder="" name="name">
                                 <div class="focus"></div>
                             </div>
                             @error('name')
@@ -23,12 +23,12 @@
                         </div>
                         <br><br>
                         <label for="recette">Recette</label>
-                        <select name="recette" id="recette">
+                        <select name="recette" id="recette" class="@error('recette') is-invalid @enderror">
                             @foreach($recettes as $recette)
                             <option value="{{ $recette->id }}">{{ $recette->name }}</option>
                             @endforeach
                         </select>
-                        @error('name')
+                        @error('recette')
                         <div style="color: #A52A2A;">{{ $message }}</div>
                         @enderror
                         <div class="empty-sm-20 empty-xs-20"></div>
