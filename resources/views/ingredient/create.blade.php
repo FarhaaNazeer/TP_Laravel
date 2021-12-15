@@ -22,15 +22,6 @@
                             <div class="empty-sm-20 empty-xs-20"></div>
                         </div>
                         <br><br>
-                        <label for="recette">Recette</label>
-                        <select name="recette" id="recette" class="@error('recette') is-invalid @enderror">
-                            <option value="{{ $recette->id }}">{{ $recette->name }}</option>
-                        </select>
-                        @error('recette')
-                        <div style="color: #A52A2A;">{{ $message }}</div>
-                        @enderror
-                        <div class="empty-sm-20 empty-xs-20"></div>
-                        <br>
                         <button type="submit">Enregistrer</button>
                     </form>
                 </div>

@@ -22,12 +22,13 @@
                         <div style="color: #A52A2A;">{{ $message }}</div>
                         @enderror
                         <br><br>
-                        <label for="image">Image</label>
-                        <input type="file" name="image" id="image">
-                        @error('image')
-                        <div style="color: #A52A2A;">{{ $message }}</div>
-                        @enderror
-                        <br><br><br>
+                        <label for="ingredient">Ingredient</label>
+                        <fieldset>
+                            @foreach($ingredients as $ingredient)
+                            <input type="checkbox" name="ingredients[]" id="ingredient" value="{{ $ingredient->id }}">{{ $ingredient->name }}
+                            @endforeach
+                        </fieldset>
+                        <br><br>
                         <button type="submit" class="@error('image') is-invalid @enderror"> Enregistrer</button>
                     </form>
                 </div>

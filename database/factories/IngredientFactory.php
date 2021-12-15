@@ -19,13 +19,10 @@ class IngredientFactory extends Factory
     public function definition()
     {
 
-        // return [
-        //     'name' => FoodProvider::ingredientName()->foodName,
-        //     'atelier_id' => Ingredient::factory()
-        //         ->has(Atelier::factory()->count(5))
-        //         ->create(),
-        //     'created_at' => now(),
-        //     'updated_at' => now(),
-        // ];
+        return [
+            'name' => FoodProvider::ingredientName()->foodName,
+            'created_at' => now(),
+            'updated_at' => now(),
+        ];
     }
 }

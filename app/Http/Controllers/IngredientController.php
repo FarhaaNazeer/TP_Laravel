@@ -24,7 +24,6 @@ class IngredientController extends Controller
                 $ingredient = new Ingredient();
 
                 $ingredient->name = htmlentities(trim($request->get('name')));
-                $ingredient->recette_id = htmlentities($request->get('recette'));
 
                 $ingredient->save();
 
