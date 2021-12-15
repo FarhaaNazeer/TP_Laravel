@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\IngredientController;
-use App\Http\Controllers\RecetteController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AtelierController;
+use App\Http\Controllers\RecetteController;
+use App\Http\Controllers\IngredientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,12 +30,13 @@ Route::get('/ingredient/create', [IngredientController::class, 'createForm'])->m
 Route::post('/ingredient/create', [IngredientController::class, 'validForm'])->middleware(['auth'])->name('valid_ingredient');
 
 #Recette
-Route::get('/recette/create', [RecetteController::class, 'createForm'])->middleware(['auth'])->name('create_recette');;
+Route::get('/recette/create', [RecetteController::class, 'createForm'])->middleware(['auth'])->name('create_recette');
 Route::post('/recette/create', [RecetteController::class, 'validForm'])->middleware(['auth'])->name('valid_recette');
 
-Route::get('/atelier/create', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+#Atelier
+Route::get('/atelier/create', [AtelierController::class, 'createForm'])->middleware(['auth'])->name('create_atelier');
+Route::post('/atelier/create', [AtelierController::class, 'validForm'])->middleware(['auth'])->name('valid_atelier');
+
 
 Route::get('/reservation/create', function () {
     return view('dashboard');
