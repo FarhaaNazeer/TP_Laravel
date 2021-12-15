@@ -17,7 +17,7 @@
                         </div>
                         <div class="empty-sm-40 empty-xs-40"></div>
                         <div class="button-wrap">
-                            <a href="#" class="page-button button-style-1 type-2"><span class="txt">Réserver un atelier</span></a>
+                            <a href="{!! route('create_reservation') !!}" class="page-button button-style-1 type-2"><span class="txt">Réserver un atelier</span></a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="empty-sm-40 empty-xs-40"></div>
                 <div class="button-wrap">
-                    <a href="#" class="page-button button-style-1 type-2"><span class="txt">Découvrez nos ateliers</span></a>
+                    <a href="{!! route('show_ateliers') !!}" class="page-button button-style-1 type-2"><span class="txt">Découvrez nos ateliers</span></a>
                 </div>
             </div>
         </div>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="empty-sm-40 empty-xs-30"></div>
                     <div class="text-center">
-                        <a href="#" class="page-button button-style-1 type-2"><span class="txt">Plus de recettes par ici</span></a>
+                        <a href="{!! route('all_recettes') !!}" class="page-button button-style-1 type-2"><span class="txt">Plus de recettes par ici</span></a>
                     </div>
                 </div>
             </div>
