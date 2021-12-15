@@ -3,6 +3,7 @@
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SecurityController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,10 +23,14 @@ Route::get('/reservation', [HomeController::class, 'reservation'])->name('reserv
 
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
-Route::get('/products', [ProductController::class, 'shop'])->name('shop');
+// Route::get('/products', [ProductController::class, 'shop'])->name('shop');
 
-Route::get('/product/{id}', [ProductController::class, 'product'])->name('product');
+// Route::get('/product/{id}', [ProductController::class, 'product'])->name('product');
 
-Route::post('/cart/add/product/{productId}', [CartController::class, 'addToCart'])->name('addToCart');
+// Route::post('/cart/add/product/{productId}', [CartController::class, 'addToCart'])->name('addToCart');
 
-Route::get('/cart/checkout/{cartId}', [CartController::class, 'checkout'])->name('cartCheckout');
+// Route::get('/cart/checkout/{cartId}', [CartController::class, 'checkout'])->name('cartCheckout');
+
+# Security 
+Route::get('/register', [SecurityController::class, 'create'])->name('create_register_form');
+Route::post('/register', [SecurityController::class, 'save'])->name('save_register_form');

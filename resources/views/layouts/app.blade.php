@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>IndusValley - @yield('title') </title>
+    <title>IndusValley | @yield('title') </title>
     <link rel="shortcut icon" href="favicon.ico" />
     <style id="dynamic-css"></style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
@@ -18,7 +18,7 @@
 @yield('content')
 @include('footer')
 
-<!-- POPUP REGISTER -->
+<!-- POPUP REGISTER 
 <div class="popup index-popup-register" data-rel="4">
     <div class="popup-wrap popup-layer">
         <div class="empty-sm-0 empty-xs-15"></div>
@@ -33,7 +33,7 @@
                     <h2 class="h2 tt">register</h2>
                 </div>
                 <div class="empty-sm-30 empty-xs-30"></div>
-                <form action="#">
+                <form action="{!! route('save_register_form') !!}">
                     <div class="input-field-wrap">
                         <input type="text" class="input-field" placeholder="Your name" name="name" required="">
                         <div class="focus"></div>
@@ -148,8 +148,8 @@
             </div>
         </div>
     </div>
-</div>
-<!-- POPUP LOGIN -->
+</div >-->
+<!-- POPUP LOGIN 
 <div class="popup index-popup-login" data-rel="3">
     <div class="popup-wrap popup-layer">
         <div class="empty-sm-0 empty-xs-15"></div>
@@ -270,7 +270,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <script>
     function MessageForm6() {

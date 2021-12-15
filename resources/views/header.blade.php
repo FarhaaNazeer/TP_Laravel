@@ -200,7 +200,8 @@
                         </div>
                     </div>
                     <div class="login-item">
-                        <a href="#" class="open-popup" data-open="popup-login" data-rel="3">Log in</a> / <a href="#" class="open-popup" data-open="popup-register" data-rel="4">Sign up</a>
+                        <a href="#" class="open-popup" data-open="popup-login" data-rel="3">Log in</a> /
+                        <a href="{!! route('create_register_form') !!}" class="" data-open="popup-register" data-rel="4">Sign up</a>
                     </div>
                     <div class="follow">
                         <a href="#">
@@ -278,7 +279,7 @@
                         <li><a href="{!! route('home') !!}">Home<img src="img/down-arrow.png" alt="" class="active"></a>
                         </li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="{!! route('shop') !!}">Shop<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
+                        <li><a href="#">Shop<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
                         </li>
                         <li><a href="{!! route('reservation') !!}">Reservation<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
                         <li><a href="{!! route('contact') !!}">Contact<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
