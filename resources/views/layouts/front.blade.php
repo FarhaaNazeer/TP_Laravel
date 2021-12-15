@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <title>Delice</title>
+    <title>IndusValley</title>
     <style id="dynamic-css"></style>
     <style type="text/css">
         .preloader {
-            position: fixed;
+            /* position: fixed;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
             background: #fff;
             text-align: center;
-            z-index: 6001;
+            z-index: 6001; */
         }
 
         .preloader:after {
@@ -138,6 +138,7 @@
         </div>
     </div>
 
+
     <div class="color-piker">
         <div class="piker-open">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 478.703 478.703" style="enable-background:new 0 0 478.703 478.703;" xml:space="preserve" width="24px" height="24px">
@@ -226,18 +227,18 @@
     </div>
     @include('layouts.footer')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jscolor.min.js"></script>
-    <script src="js/jquery.knob.js"></script>
-    <script src="js/jquery.throttle.js"></script>
-    <script src="js/jquery.classycountdown.js"></script>
-    <script src="js/jarallax.js"></script>
-    <script src="js/all.js"></script>
-    <script src="js/color.picker.js"></script>
+    <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('js/all.js') }} "></script>
+    <script src="{{ asset('js/jscolor.min.js') }}"></script>
+    <script src=" {{ asset('js/jquery.knob.js') }} "></script>
+    <script src=" {{ asset('js/jquery.throttle.js') }} "></script>
+    <script src=" {{ asset('js/jquery.classycountdown.js') }} "></script>
+    <script src=" {{ asset('js/jarallax.js') }} "></script>
+    <script src=" {{ asset('js/color.picker.js') }} "></script>
 
 </body>
 

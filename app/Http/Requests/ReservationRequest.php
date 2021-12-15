@@ -24,7 +24,7 @@ class ReservationRequest extends FormRequest
     public function rules()
     {
         return [
-
+            'nb_pers' => 'bail|numeric|required'
         ];
     }
 }

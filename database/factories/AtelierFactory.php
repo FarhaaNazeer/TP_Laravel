@@ -15,7 +15,6 @@ class AtelierFactory extends Factory
     {
         return [
             'nom' => $this->faker->jobTitle(),
-            'nb_pers' => $this->faker->randomDigit(5),
             'date' => $this->faker->dateTime(),
             'location' => $this->faker->city(),
             'created_at' => now(),

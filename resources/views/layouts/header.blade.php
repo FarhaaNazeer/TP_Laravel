@@ -19,7 +19,7 @@
                         </li>
                         <li><a href="about.html">Recettes</a></li>
                         <li><a href="shop-1.html">Ateliers<img src="img/down-arrow.png" alt="" class="menu-arr"></a></li>
-                        <li><a href="reservation.html">Reservations<img src="img/down-arrow.png" alt="" class="menu-arr"></a></li>
+                        <li><a href="{!! route('create_reservation') !!}">Reservations<img src="img/down-arrow.png" alt="" class="menu-arr"></a></li>
                         <li><a href="contact-1.html">Contact<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
                         </li>
                         <li>

@@ -16,7 +16,6 @@ class CreateAteliersTable extends Migration
         Schema::create('ateliers', function (Blueprint $table) {
             $table->id();
             $table->string('nom');
-            $table->integer('nb_pers');
             $table->date('date');
             $table->string('location');
             $table->timestamps();
