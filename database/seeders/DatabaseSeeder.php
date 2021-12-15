@@ -33,9 +33,8 @@ class DatabaseSeeder extends Seeder
             ->count(10)
             ->create();
 
-        // Ingredient::factory()
-        //     ->count(10)
-        //     ->create();
-
+        Ingredient::factory()
+            ->count(5)
+            ->create();
     }
 }
