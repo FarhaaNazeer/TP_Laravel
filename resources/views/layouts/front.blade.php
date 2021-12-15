@@ -11,14 +11,14 @@
     <style id="dynamic-css"></style>
     <style type="text/css">
         .preloader {
-            /* position: fixed;
+            position: fixed;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
             background: #fff;
             text-align: center;
-            z-index: 6001; */
+            z-index: 6001;
         }
 
         .preloader:after {
@@ -223,6 +223,11 @@
 
     @include('layouts.header')
     <div class="main-content">
+        @if (session('status'))
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+        @endif
         {{ $slot }}
     </div>
     @include('layouts.footer')

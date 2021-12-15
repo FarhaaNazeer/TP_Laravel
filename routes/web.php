@@ -32,6 +32,7 @@ Route::post('/ingredient/create', [IngredientController::class, 'validForm'])->m
 #Recette
 Route::get('/recette/create', [RecetteController::class, 'createForm'])->middleware(['auth'])->name('create_recette');
 Route::post('/recette/create', [RecetteController::class, 'validForm'])->middleware(['auth'])->name('valid_recette');
+Route::get('/recettes', [RecetteController::class, 'all'])->name('all_recettes');
 
 #Atelier
 Route::get('/atelier/create', [AtelierController::class, 'createForm'])->middleware(['auth'])->name('create_atelier');

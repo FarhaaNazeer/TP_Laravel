@@ -10,6 +10,13 @@ use Illuminate\View\View;
 
 class RecetteController extends Controller
 {
+    public function all(): View
+    {
+        $recettes = Recette::all();
+
+        return view('recettes/all', ['recettes' => $recettes]);
+    }
+
     public function createForm(): View
     {
         $ingredients = Ingredient::all();
