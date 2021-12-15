@@ -5,6 +5,7 @@ use App\Http\Controllers\IngredientController;
 use App\Http\Controllers\RecetteController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AtelierController;
+use App\Http\Controllers\ReservationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,9 +37,8 @@ Route::post('/recette/create', [RecetteController::class, 'validForm'])->middlew
 Route::get('/atelier/create', [AtelierController::class, 'createForm'])->middleware(['auth'])->name('create_atelier');
 Route::post('/atelier/create', [AtelierController::class, 'validForm'])->middleware(['auth'])->name('valid_atelier');
 
-
-Route::get('/reservation/create', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+#Reservation
+Route::get('/reservation/create', [ReservationController::class, 'createForm'])->middleware(['auth'])->name('create_reservation');
+Route::post('/reservation/create', [ReservationController::class, 'validForm'])->middleware(['auth'])->name('valid_reservation');
 
 require __DIR__ . '/auth.php';
