@@ -50,4 +50,11 @@ class RecetteController extends Controller
             }
         }
     }
+
+    public function recette(int $id): View
+    {
+        $recette = Recette::find($id);
+
+        return view('recettes/recette', ['recette' => $recette]);
+    }
 }

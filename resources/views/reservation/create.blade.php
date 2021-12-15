@@ -1,6 +1,11 @@
 <x-front-layout>
 
     <div class="main-content">
+        @if (session('status'))
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+        @endif
         <section class="full-height-slider type-1">
             <div class="bg ready data-jarallax" data-jarallax="5" style="background-image: url(http://unionagency.one/delice/img/contacts/main-baner-bg.jpg)" data-swiper-parallax="50%"></div>
             <div class="table-view mobile-rel-block">
@@ -154,29 +159,27 @@
         </section>
 
         <section class="section">
-            <div class="empty-lg-120 empty-md-100 empty-sm-60 empty-xs-60"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-xs-12">
-                        <div class="main-caption text-center color-type-2">
-                            <h2 class="h2">Inscrivez-vous à nos ateliers</h2>
-                            <div class="empty-sm-5 empty-xs-5"></div>
-                            <div class="simple-text md simple-sub-text">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
+            <div class="main-content">
+                <div class="empty-lg-120 empty-md-100 empty-sm-60 empty-xs-60"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-xs-12">
+                            <div class="main-caption text-center color-type-2">
+                                <h2 class="h2">Inscrivez-vous à nos ateliers</h2>
+
+                                <div class="simple-text md simple-sub-text">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
-
         <section class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-xs-12">
-                        <div class="empty-sm-70 empty-xs-30"></div>
-                        <div class="empty-sm-45 empty-xs-30"></div>
 
                         <form action="{!! route('valid_reservation') !!}" method="post">
                             @csrf
