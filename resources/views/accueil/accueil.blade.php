@@ -26,41 +26,6 @@
     </section>
 
     <section class="section">
-        <div class="bg" style="background-image: url(img/home-5/section_home5_bg_1.jpg)"></div>
-        <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
-        <div class="container">
-            <div class="row item-animation scroll-type-1">
-                <div class="col-md-6 col-md-offset-6">
-                    <div class="main-caption text-center">
-                        <h2 class="h1 title">About us</h2>
-                        <div class="empty-sm-10 empty-xs-10"></div>
-                        <div class="simple-text md simple-sub-text">
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="empty-lg-70 empty-md-60 empty-sm-60 empty-xs-40"></div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                <img src="img/home-5/about_img_1.jpg" alt="" class="full-img">
-                                <div class="empty-sm-30 empty-xs-30"></div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                <img src="img/home-5/about_img_2.jpg" alt="" class="full-img">
-                                <div class="empty-sm-30 empty-xs-30"></div>
-                            </div>
-                        </div>
-                        <div class="simple-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
-                        </div>
-                        <div class="empty-sm-40 empty-xs-30"></div>
-                        <a href="#" class="page-button button-style-1 type-2"><span class="txt">READ MORE</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
-    </section>
-
-    <section class="section">
         <div class="bg ready data-jarallax" data-jarallax="5" style="background-image: url(img/home-5/section_home5_bg_2.jpg)"></div>
         <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
         <div class="container item-animation scroll-type-1">
@@ -208,66 +173,4 @@
         <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
     </section>
 
-    <section class="section">
-        <div class="bg ready data-jarallax" data-jarallax="5" style="background-image: url(img/home-5/section_home5_bg_3.jpg)"></div>
-        <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
-        <div class="container item-animation scroll-type-1">
-            <div class="simple-item text-center color-type-2 simple-item-style-1">
-                <h2 class="sub-title">dishes</h2>
-                <div class="empty-sm-25 empty-xs-25"></div>
-                <div class="wrap-padding">
-                    <div class="first-div title main-col h1">Best dishes for you</div>
-                    <div class="empty-sm-10  empty-xs-10"></div>
-                    <div class="simple-text md">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    </div>
-                </div>
-                <div class="empty-sm-40 empty-xs-40"></div>
-                <div class="button-wrap">
-                    <a href="#" class="page-button button-style-1 type-2"><span class="txt">Book a Table</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
-    </section>
-
-    <section class="section">
-        <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
-        <div class="container">
-            <div class="row vertical-wrap item-animation scroll-type-1">
-                <div class="col-md-5">
-                    <div class="img-item-center">
-                        <img src="img/home-5/visit_img_1.jpg" alt="" class="resp-img">
-                        <img src="img/home-5/visit_img_2.jpg" alt="" class="resp-img">
-                        <img src="img/home-5/visit_img_3.jpg" alt="" class="resp-img">
-                        <img src="img/home-5/visit_img_4.jpg" alt="" class="resp-img">
-                        <div class="vertical-align full">
-                            <div class="simple-item text-center simple-item-style-1 color-type-2">
-                                <div class="wrap-padding">
-                                    <div class="title main-col h2">Visit us today!</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="empty-lg-0 empty-md-0 empty-sm-60 empty-xs-40"></div>
-                </div>
-                <div class="col-md-6 col-md-offset-1">
-                    <div class="main-caption text-center">
-                        <h2 class="h1 title">We do it well</h2>
-                        <div class="empty-sm-5 empty-xs-5"></div>
-                        <div class="simple-text md simple-sub-text">
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="empty-sm-30 empty-xs-30"></div>
-                        <div class="simple-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                        <div class="empty-sm-40 empty-xs-30"></div>
-                        <a href="#" class="page-button button-style-1 type-2"><span class="txt">View more</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
-    </section>
 </x-front-layout>
