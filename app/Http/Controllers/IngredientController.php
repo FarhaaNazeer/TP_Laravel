@@ -29,6 +29,8 @@ class IngredientController extends Controller
                 $ingredient->save();
 
                 return redirect('ingredient/create')->with('status', 'Votre ingrédient a bien été enregistré');
+            } else {
+                return redirect('/ingredient/create')->with('status', 'Vous n\'avez renseigné aucune donnée');
             }
         }
     }

@@ -24,9 +24,7 @@
                         <br><br>
                         <label for="recette">Recette</label>
                         <select name="recette" id="recette" class="@error('recette') is-invalid @enderror">
-                            @foreach($recettes as $recette)
                             <option value="{{ $recette->id }}">{{ $recette->name }}</option>
-                            @endforeach
                         </select>
                         @error('recette')
                         <div style="color: #A52A2A;">{{ $message }}</div>

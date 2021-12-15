@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\IngredientController;
+use App\Http\Controllers\RecetteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,13 +23,14 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+#Ingredient
 Route::get('/ingredient/create', [IngredientController::class, 'createForm'])->middleware(['auth'])->name('create_ingredient');
 
 Route::post('/ingredient/create', [IngredientController::class, 'validForm'])->middleware(['auth'])->name('valid_ingredient');
 
-Route::get('/recette/create', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+#Recette
+Route::get('/recette/create', [RecetteController::class, 'createForm'])->middleware(['auth'])->name('create_recette');;
+Route::post('/recette/create', [RecetteController::class, 'validForm'])->middleware(['auth'])->name('valid_recette');
 
 Route::get('/atelier/create', function () {
     return view('dashboard');
