@@ -18,10 +18,12 @@
                         <li class="active"><a href="{!! route('home') !!}">Accueil<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
                         </li>
                         <li><a href="{!! route('all_recettes') !!}">Recettes</a></li>
-                        <li><a href="shop-1.html">Ateliers<img src="img/down-arrow.png" alt="" class="menu-arr"></a></li>
+                        <li><a href="{!! route('show_ateliers') !!}">Ateliers<img src="img/down-arrow.png" alt="" class="menu-arr"></a></li>
                         <li><a href="{!! route('create_reservation') !!}">Reservations<img src="img/down-arrow.png" alt="" class="menu-arr"></a></li>
+                        <li><a href="contact-1.html">Contact<img src="img/down-arrow.png" alt="" class="menu-arr"></a>
+                        </li>
                         <li>
-                            <a href="{!! route('login') !!}">Connexion</a>/
+                            <a href="{!! route('login') !!}">Connexion</a>|
                             <a href="{!! route('register') !!}">Inscription</a>
                         </li>
                     </ul>

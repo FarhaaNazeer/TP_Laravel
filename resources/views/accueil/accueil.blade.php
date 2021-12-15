@@ -6,18 +6,18 @@
                 <div class="container">
                     <div class="empty-lg-100 empty-md-50 empty-sm-0 empty-xs-0"></div>
                     <div class="simple-item text-center color-type-2 simple-item-style-1">
-                        <div class="first-div title main-col h1">Welcome</div>
+                        <div class="first-div title main-col h1">Bienvenue</div>
                         <div class="empty-sm-30 empty-xs-30"></div>
                         <div class="wrap-padding">
-                            <h1 class="sub-title">Hight quality meals</h1>
+                            <h1 class="sub-title">Réservez vite votre atelier cuisine</h1>
                             <div class="empty-sm-20  empty-xs-20"></div>
                             <div class="simple-text md">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <p>Réservez votre atelier pour réaliser avec nous un menu complet! Sous la direction d'un chef invité.</p>
                             </div>
                         </div>
                         <div class="empty-sm-40 empty-xs-40"></div>
                         <div class="button-wrap">
-                            <a href="#" class="page-button button-style-1 type-2"><span class="txt">book a table</span></a>
+                            <a href="#" class="page-button button-style-1 type-2"><span class="txt">Réserver un atelier</span></a>
                         </div>
                     </div>
                 </div>
@@ -65,10 +65,10 @@
         <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
         <div class="container item-animation scroll-type-1">
             <div class="simple-item text-center color-type-2 simple-item-style-1">
-                <h2 class="sub-title">menu</h2>
+                <h2 class="sub-title">Nos ateliers</h2>
                 <div class="empty-sm-25 empty-xs-25"></div>
                 <div class="wrap-padding">
-                    <div class="first-div title main-col h1">High quality meals</div>
+                    <div class="first-div title main-col h1">Nos ateliers pour réaliser des recettes gourmandes</div>
                     <div class="empty-sm-10 empty-xs-10"></div>
                     <div class="simple-text md">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="empty-sm-40 empty-xs-40"></div>
                 <div class="button-wrap">
-                    <a href="#" class="page-button button-style-1 type-2"><span class="txt">Our Menu</span></a>
+                    <a href="#" class="page-button button-style-1 type-2"><span class="txt">Découvrez nos ateliers</span></a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
                     <div class="row item-animation scroll-type-1">
                         <div class="col-lg-8 col-lg-offset-2 col-md-12">
                             <div class="main-caption text-center">
-                                <h2 class="h1 title">Our Menu</h2>
+                                <h2 class="h1 title">Nos recettes</h2>
                                 <div class="empty-sm-10 empty-xs-10"></div>
                                 <div class="simple-text md simple-sub-text">
                                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="empty-sm-40 empty-xs-30"></div>
                     <div class="text-center">
-                        <a href="#" class="page-button button-style-1 type-2"><span class="txt">More Menu</span></a>
+                        <a href="#" class="page-button button-style-1 type-2"><span class="txt">Plus de recettes par ici</span></a>
                     </div>
                 </div>
             </div>
