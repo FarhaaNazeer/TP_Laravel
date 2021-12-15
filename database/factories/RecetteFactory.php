@@ -15,7 +15,7 @@ class RecetteFactory extends Factory
     public function definition()
     {
         return [
-            'name' => FoodProvider::ingredientName()->beverageName,
+            'name' => FoodProvider::ingredientName()->foodName,
             'description' => $this->faker->text($maxNbChars = 200),
             'image' => $this->faker->image(),
             'created_at' => now(),

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IngredientController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,10 +15,24 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+Route::get('/ingredient/create', [IngredientController::class, 'create'])->middleware(['auth'])->name('create_ingredient');
+
+Route::get('/recette/create', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+Route::get('/atelier/create', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+Route::get('/reservation/create', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
