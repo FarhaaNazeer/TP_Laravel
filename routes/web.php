@@ -1,9 +1,10 @@
 <?php
 
+use App\Http\Controllers\AccueilController;
+use App\Http\Controllers\IngredientController;
+use App\Http\Controllers\RecetteController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AtelierController;
-use App\Http\Controllers\RecetteController;
-use App\Http\Controllers\IngredientController;
 use App\Http\Controllers\ReservationController;
 
 /*
@@ -17,9 +18,7 @@ use App\Http\Controllers\ReservationController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [AccueilController::class, 'accueil'])->name('home');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
