@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class HomeController extends Controller
+class AccueilController extends Controller
 {
-    public function home()
+    public function accueil()
     {
-        return view('Home/home');
+        return view('accueil/accueil');
     }
 
     public function reservation()
