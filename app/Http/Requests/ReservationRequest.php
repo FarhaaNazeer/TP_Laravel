@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class AtelierRequest extends FormRequest
+class ReservationRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,10 +24,7 @@ class AtelierRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'bail|required|min:3',
-            'nb_personnes' => 'bail|min:1',
-            'date' => 'bail|min:4',
-            'location' => 'bail',
+
         ];
     }
 }

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Atelier;
 use Illuminate\View\View;
-use App\Http\Requests\RecetteRequest;
+use App\Http\Requests\AtelierRequest;
 
 class AtelierController extends Controller
 {
@@ -13,7 +13,7 @@ class AtelierController extends Controller
         return view('atelier/create');
     }
 
-    public function validForm(RecetteRequest $request)
+    public function validForm(AtelierRequest $request)
     {
         if ($request->isMethod('POST')) {
             if (empty(!$request)) {
