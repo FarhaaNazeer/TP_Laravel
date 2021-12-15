@@ -32,4 +32,11 @@ class AtelierController extends Controller
             }
         }
     }
+
+    public function getAteliers(): View
+    {
+
+        $ateliers = Atelier::all();
+        return view('atelier/ateliers', ['ateliers' => $ateliers]);
+    }
 }
