@@ -37,6 +37,6 @@ class AtelierController extends Controller
     {
 
         $ateliers = Atelier::all();
-        return view('atelier/ateliers', ['ateliers' => $ateliers]);
+        return view('atelier/all', ['ateliers' => $ateliers]);
     }
 }
